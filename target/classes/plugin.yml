@@ -1,0 +1,10 @@
+name: Homes
+version: '1.0'
+main: fr.rudy.homes.HomesPlugin
+api-version: '1.21'
+
+commands:
+  sethome:
+    description: Définit ton home.
+  home:
+    description: Te téléporte à ton home.
