@@ -11,8 +11,8 @@ public class HomesPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        if (Bukkit.getPluginManager().getPlugin("DatabaseAPI") == null) {
-            getLogger().severe("DatabaseAPI requis !");
+        if (Bukkit.getPluginManager().getPlugin("xDatabaseAPI") == null) {
+            getLogger().severe("xDatabaseAPI requis !");
             Bukkit.getPluginManager().disablePlugin(this);
             return;
         }
